@@ -1,0 +1,17 @@
+body{ background-color: #41B06E;  
+}
+#contenedor2{ font-family: "Platypi", serif; background-color:#FFF5E0}
+#imagen4, #imagen5{width: 50px;}
+
+#parrafo2 { text-align: justify; font-family: "Platypi", serif;background-color:#8DECB4}
+
+#parrafo3, #parrafo4, #parrafo5, #parrafo6{ text-align: justify; font-family: "Platypi", serif; background-color:#FFF5E0}
+
+#parrafo7 { text-align: center; font-family: "Platypi", serif; background-color: #8DECB4;
+
+}
+#lista1, #lista2, #lista3 {
+    text-align: justify; font-family: "Platypi", serif; background-color: #8DECB4;
+}
+
+#contenedor3{background-color:#141E46}

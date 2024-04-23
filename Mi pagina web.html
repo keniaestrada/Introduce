@@ -4,41 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal webpage</title>
-   <link rel="stylesheet" href="css/My page.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+   rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/My page.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg_animate">
-        <h1>Introduce myself</h1>
-        <img src="./26a044e9-e2c4-4a95-98dc-564a561ea3d3.jpeg" alt="my photo">
-        <p>My name is Kenia, I´m from Mexico.
-        I´m chemistry drug biologist, my first work was in Boehringer Ingelheim when l was Specialist in Master Recipe Approval and Quality Documentation , my main tasks were: </p>
-        <ul>
-            <li> Formalize Master Batch Records (MBR), Master Packaging Records (MPR), Bill of materials (BOM) and master recipes.</li>
-            <li>Interaction with internal areas such as: process and packaging technology, quality assurance, production, and planning for the request of the necessary documentation for the GRP 3.0 project.</li>
-            <li> Optimal implementation of the activities agreed between the different areas responsible for the project.</li>
-        </ul>
-    <h2>My hobbies</h2>
-    <ul>
-        <li>Go to the gym</li>
-        <li>Mixed martial arts</li>
-        <li>The romantic series</li>
-        <li>Books of romance</li>
-        <li>Learn the language of Mexican signs</li>
-    </ul> <!--Listas desordenadas-->
-    <p>Link of linkedin</p> 
-    <a href="linkedin.com/in/kenia-texcalpa">Here Click</a>
-</header>
-    <div class="burbujas">
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-        <div class="burbujas"></div>
-    </div>
+  <br>
+  <div id="titulo">
+        <h1>Personal profile</h1>
+      </div>
+
+        <nav class="navbar navbar-expand-lg sm-light bg-light">
+            <!--- se agrega sm para que se ajuste a toda la pagina-->
+            <div class="container-fluid" id="contenedor">
+              <a class="navbar-brand" id="home" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./css/Experiencia.html">Professional experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./css/Curses-and-sofwares.html">Courses and sofwers</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Download
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./css/ilovepdf_merged.pdf">Certificates</a></li>
+                      <li><a class="dropdown-item" href="./css/ilovepdf_merged (1).pdf">Curriculum</a></li>
+                      <li><a class="dropdown-item" href="./css/ilovepdf_merged (2).pdf">Recommendation letters</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Termina Narvar-->
+          <!--div.container.border>div.row.border>div.col-sm.border{a}*2-->
+    <div class="container border">
+        <div class="row border" >
+            <div class="col-sm border">
+              <div class="card" style="width: 18rem;" id="informacion">
+                <img src="./26a044e9-e2c4-4a95-98dc-564a561ea3d3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title" id="Name">Kenia Estrada Texcalpa</h4>
+                   <hr>
+                   <h5>Vocational training </h5>
+                    <hr>
+                  <p class="card-text">  
+                    Pharmaceutical Chemistry Biologist (on certification process) 
+                    <br>
+                    (2019-2023)
+                    <br>Faculty of Chemistry (UNAM)                               
+                    <hr>
+                    <h5>Other studies</h5>
+                    <hr>
+                      Jr. Full Stack Developer 
+                      <br>                               (Mar-May 2024)
+                      <br>
+                    Program of Generation. 
+                     </p>
+                  <a href="https://www.linkedin.com/in/kenia-texcalpa/" class="btn btn-primary" > Linkedin </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm border" id="Derecha">
+              <div class="list-group" >
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                  <h4 class="mb-1" id="contact">
+                    Contact information</h4>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action" id="informacion1">
+                <div class="d-flex w-100">
+                  <img src="./css/imagen2.png" class="card-img-top" id="imagen2" alt="...">
+                  <h5 class="mb-1">Address</h5>
+                </div>
+                <p class="mb-1">Mexico City, Xochimilco, CP. 16797.</p>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action" id="informacion2">
+                <div class="d-flex w-100">
+                  <img src="./css/Imagen3.webp" class="card-img-top" id="imagen3" >
+                  <h5 class="mb-1">Phone number</h5>
+                </div>
+                <p class="mb-1">55-21-61-04-89 o 55-10-13-93-84 (WhatsApp)</p>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action" id="informacion3">
+                <div class="d-flex w-100">
+                  <img src="./css/Imagen 3.png" class="card-img-top" id="imagen4" alt="...">
+                  <h5 class="mb-1">Email</h5>
+                </div>
+                <p class="mb-1">kenia.lbsg@gmail.com</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div id="fondo">
+          <br>
+          <br>
+          <br>
+        </div>
+   
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
